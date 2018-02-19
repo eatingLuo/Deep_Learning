@@ -1,0 +1,16 @@
+net: "/home/wangfei/ML2FinalProject/project_full_code/data/vggface_train_test.prototxt"
+test_iter: 20
+test_interval: 20
+test_initialization: false
+display: 40
+average_loss: 40
+base_lr: 0.00005
+lr_policy: "step"
+stepsize: 320000
+gamma: 0.96
+max_iter: 2000
+momentum: 0.9
+weight_decay: 0.0002
+snapshot: 2000
+snapshot_prefix: "/home/wangfei/ML2FinalProject/project_full_code/data/newmodel"
+solver_mode: GPU
